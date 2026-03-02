@@ -25,10 +25,16 @@ cd auth_service_otp
 1. Create Docker env file from template.
 
 ```bash
-cp .env.example .env.docker
+cp .env.example .env
 ```
 
 1. Start all services.
+
+```bash
+docker compose up --build
+```
+
+OR if using another .env file
 
 ```bash
 docker compose --env-file .env.docker up --build
@@ -142,6 +148,12 @@ Status summary:
 ## Testing
 
 Run tests in Docker:
+
+```bash
+docker compose exec web python manage.py test
+```
+
+OR if using another .env file
 
 ```bash
 docker compose --env-file .env.docker exec web python manage.py test
