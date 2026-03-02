@@ -1,0 +1,149 @@
+# Python bytecode and cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+virtualenv/
+
+# Database files
+*.db
+*.sqlite3
+*.sqlite
+*.db-journal
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Django media and static files
+/media/
+/static/
+/staticfiles/
+/mediafiles/
+/static_root/
+/media_root/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.coverage.*
+coverage.json
+
+# Docker volumes
+/docker/data/
+/docker/postgres/
+/docker/redis/
+*.pid
+docker-compose.override.yml
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+*.log.*
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/

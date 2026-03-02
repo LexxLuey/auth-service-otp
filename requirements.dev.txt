@@ -1,0 +1,10 @@
+-r requirements.txt
+
+# Development and testing tools
+pytest>=7.4.0
+pytest-django>=4.5.0
+pytest-cov>=4.1.0
+flake8>=6.1.0
+black>=23.9.0
+ipython>=8.15.0
+django-debug-toolbar>=4.2.0
