@@ -28,6 +28,7 @@ virtualenv/
 .env
 .env.local
 .env.development
+.env.docker
 .env.production
 !.env.example
 

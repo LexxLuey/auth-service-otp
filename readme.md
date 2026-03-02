@@ -18,7 +18,7 @@ Optional for bare-metal development:
 1. Clone the project and enter the directory.
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/LexxLuey/auth-service-otp.git
 cd auth_service_otp
 ```
 
@@ -45,7 +45,7 @@ docker compose --env-file .env.docker up --build
 1. Clone and enter the project.
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/LexxLuey/auth-service-otp.git
 cd auth_service_otp
 ```
 
